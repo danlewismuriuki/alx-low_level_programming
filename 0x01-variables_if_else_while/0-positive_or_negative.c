@@ -1,10 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 #include <stdio.h>
-/* betty style doc for function main goes there */
-/* main - This is the entry */
-/* Return: Always 0 (Success)*/
+
+/**
+ * main - This is the entry point
+ * Description: This program will check for positive and negative numbers
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 	int n;
