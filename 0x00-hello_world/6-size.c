@@ -1,8 +1,10 @@
 #include <stdio.h>
+
 /**
- * main - This is the entry point
+ * main - main function
  *
- * Return: Always 0 (Success)
+ * Return: 0 (Succcess)
+ *
  */
 
 int main(void)
@@ -12,6 +14,5 @@ int main(void)
 	printf("Size of a long int: %lu byte(s)\n", sizeof(long int));
 	printf("Size of a long long int: %lu byte(s)\n", sizeof(long long int));
 	printf("Size of a float: %lu byte(s)\n", sizeof(float));
-
 	return (0);
 }
