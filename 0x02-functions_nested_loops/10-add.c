@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - This is the entry point for the function
+ * add - This is the entry point for the function
  * @a: first integers value
  * @b: second integer value
  * Return: is always 0 (success)
