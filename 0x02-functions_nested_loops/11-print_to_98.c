@@ -1,26 +1,31 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
- * print_to_98 - This is the entry point
+ * print_to_98 - This is the start of the function
  *
- * @n: This is the integer to be checked
+ * @n: The number to start printing from
  *
- * Return: Is always 0 (success)
- *
+ * Return: Always 0 (success)
  */
 
 void print_to_98(int n)
 {
-	int i;
-
-	for (i = 0; i <= 98; i++)
+	if (n <= 98)
 	{
-		printf("%d", i);
-		if (i < 98)
+		for (; n <= 98; n++)
 		{
-			printf(", ", i);
+			if (n == 98)
+			{
+				printf("%d", n);
+				printf("\n");
+				break;
+			}
+			else
+			{
+				printf("%d, ", n);
+			}
+
 		}
 	}
-	return (0);
 }
