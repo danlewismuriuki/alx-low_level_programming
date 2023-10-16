@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * swap_int - check the code
  *
- * Return: Always 0.
+ * @a: first value which is an integer
+ *
+ * @b: second integer which is an inter
  */
 
 void swap_int(int *a, int *b)
