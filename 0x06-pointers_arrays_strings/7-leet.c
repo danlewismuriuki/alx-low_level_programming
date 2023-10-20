@@ -12,7 +12,7 @@ char *leet(char *str)
 {
 	int i, j;
 
-	char c[] = "aAeEoOtTiL";
+	char c[] = "aAeEoOtTlL";
 
 	char d[] = "4433007711";
 
