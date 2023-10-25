@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int _strlen_recursion - This is the ntry point
+ * _strlen_recursion - This is the ntry point
  *
  * @s: This is the input
  *
@@ -12,7 +12,7 @@ int _strlen_recursion(char *s)
 {
 	int j = 0;
 
-	if(*s)
+	if (*s)
 	{
 		j++;
 		j += _strlen_recursion(s + 1);
