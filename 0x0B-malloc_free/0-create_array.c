@@ -11,13 +11,14 @@
  * Return: Returns a char value
  */
 
+
 char *create_array(unsigned int size, char c)
 {
 	char *s;
 	unsigned int i;
 
 	s = malloc(size  * sizeof(char));
-	if (s == NULL)
+	if (s == 0)
 	{
 		return (NULL);
 	}
