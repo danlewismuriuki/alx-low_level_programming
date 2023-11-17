@@ -1,6 +1,6 @@
 #include "function_pointers.h"
 /**
- * int_index - This is the nerty dor the func
+ * int_index - This is the nerty for the func
  * @array: size of the array
  * @size: size of the array
  * @cmp: function that comapres
