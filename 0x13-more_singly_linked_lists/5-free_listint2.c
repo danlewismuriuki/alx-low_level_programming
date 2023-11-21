@@ -4,7 +4,7 @@
 /**
  * free_listint2 - This function free and sets null to the head pointer
  * @head: Will be set to null
- * Returns: Returns void
+ * Return: Returns void
  */
 
 void free_listint2(listint_t **head)
