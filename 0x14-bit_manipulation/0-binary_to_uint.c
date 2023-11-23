@@ -3,7 +3,7 @@
 
 /**
  * binary_to_uint - This function changes strings of 1 and 0's to integer
- * @b this is the ointer to the string
+ * @b: this is the ointer to the string
  * Return: Will return the string binary as unsigned integer binary
  */
 
@@ -20,8 +20,9 @@ unsigned int binary_to_uint(const char *b)
 	{
 		if (b[i] == '0' || b[i] == '1')
 		{
-			int bit = b[i] - '0';
-			Binary_list = (Binary_list << 1) | bit;
+			int bits = b[i] - '0';
+
+			Binary_list = (Binary_list << 1) | bits;
 		}
 		else
 		{
