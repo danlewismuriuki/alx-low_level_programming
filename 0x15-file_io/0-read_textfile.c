@@ -18,13 +18,13 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (filename == NULL)
 	{
 		perror("Error opening file");
-		return (-1);
+		return (0);
 	}
 	My_file = fopen(filename, "r");
 
 	if (My_file == NULL)
 	{
-		return (-1);
+		return (0);
 	}
 
 	while (letter_count < letters && (c = fgetc(My_file)) != EOF)
@@ -35,7 +35,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	fclose(My_file);
 	while (letter_count < letters && ferror(My_file))
 	{
-		return (-1);
+		return (0);
 	}
 	return ((ssize_t)letter_count);
 }
