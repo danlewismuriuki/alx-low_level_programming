@@ -7,5 +7,3 @@ NAME = school
 
 $(NAME): $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
-clean:
-	rm $(OBJ)
