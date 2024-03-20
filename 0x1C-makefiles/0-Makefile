@@ -1,0 +1,4 @@
+all: school # Defines that 'school' is the default target
+
+school: # Defines the 'school' target
+	gcc main.c school.c -o school
